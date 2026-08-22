@@ -3687,31 +3687,19 @@ h1, h2, h3, h4, h5, h6 {
   });
 
 
-  /*
-  =============================================================================
-  🚨 GOOGLE APPS SCRIPT BACKEND WEBHOOK CODE (COPY & PASTE TO GOOGLE SHEETS)
-  =============================================================================
-  Below is the complete Google Apps Script code to deploy inside your 
-  Google Sheets editor (Extensions > Apps Script).
-  
-  Do NOT execute this inside the browser. It is for reference / copy-pasting.
-  =============================================================================
-  
-/**
- * =========================================================================
- * PLASH PILATES | Google Sheet Form Webhook (Google Apps Script) - v2.0
- * =========================================================================
- * 
- * FIXES IN THIS VERSION:
- * 1. Fixed "Blank Sheet" issue: Directly scans from Row 1 so data is never
- *    accidentally written at row 1001 below Google Sheet's empty default rows.
- * 2. Writes to the 1st sheet tab (ss.getSheets()[0]) so tab names never conflict.
- * 3. Uses SpreadsheetApp.flush() to instantly force Google Sheets to display the new row.
- * 4. Includes spreadsheet link in email notification so you can open the exact sheet.
- * =========================================================================
- */
+  </script>
+</body>
+</html>
+<!--
+=============================================================================
+🚨 GOOGLE APPS SCRIPT BACKEND WEBHOOK CODE (COPY & PASTE TO GOOGLE SHEETS)
+=============================================================================
+Below is the complete Google Apps Script code to deploy inside your 
+Google Sheets editor (Extensions > Apps Script).
 
-// Optional: Studio notification email
+Do NOT execute this inside the browser. It is for reference / copy-pasting.
+=============================================================================
+
 var NOTIFICATION_EMAIL = "plashpilates@gmail.com"; 
 
 // Optional: If this script is standalone (not bound to the sheet), paste your Google Sheet URL here.
@@ -3879,7 +3867,4 @@ function doGet(e) {
     message: "Plash Pilates Google Sheet Webhook is active and running!"
   })).setMimeType(ContentService.MimeType.JSON);
 }
-  */
-  </script>
-</body>
-</html>
+-->
